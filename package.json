@@ -4,7 +4,9 @@
   "description": "Tarea de la clase 11 de r-Argentina-Programa (Agregar Cypress a proyecto calcular edades de una familia)",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "empezar": "http-server",
+    "cypress-run": "cypress run",
+    "cypress-dev": "cypress open"
   },
   "repository": {
     "type": "git",
