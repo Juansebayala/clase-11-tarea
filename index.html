@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tarea 1</title>
+	<link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+	<h1 class="text-center">Calculadora edad más grande, pequeña y promedio de tu familia</h1>
+	<form class="container">
+		<div class="row row-cols-lg-auto align-items-center">
+			<div class="col-6">
+				<label for="integrantes" class="form-label">Por favor, ingresa la cantidad de integrantes que tiene tu familia:</label>
+			</div>
+			<div class="col-3">
+				<input id="integrantes" type="number" class="form-control">
+			</div>
+			<div class="col-2">
+				<button id="agregar-integrantes" class="btn btn-primary col">Agregar Integrantes</button>
+			</div>
+			<div class="col-3">
+				<p id="alerta-ingreso-integrantes" class="alert alert-danger oculto" role="alert">Debes agregar al menos 1 integrante</p>
+			</div>
+		</div>
+		<div id="integrantes-familia" class="container">
+			
+		</div>
+		<div>
+				<button id="boton-calcular" class="btn btn-primary oculto">Calcular</button>
+				<button id="boton-resetear" class="btn btn-primary oculto">Resetear formulario</button>
+		</div>
+	</form>
+	<div id="mensajes-resultados" class="list-group text-center oculto">
+		<ul>
+			<li id="edad-mas-grande" class="list-group-item"></li>
+			<li id="edad-mas-pequenia" class="list-group-item"></li>
+			<li id="edad-promedio" class="list-group-item"></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="src/js/calculos.js"></script>
+	<script type="text/javascript" src="src/js/evento-calcular.js"></script>
+	<script type="text/javascript" src="src/js/evento-resetear.js"></script>
+	<script type="text/javascript" src="src/js/script.js"></script>
+	<script type="text/javascript" src="src/js/pruebas.js"></script>
+</body>
+</html>
