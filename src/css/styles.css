@@ -1,0 +1,21 @@
+h1, ul {
+	margin: 10px 0;
+}
+
+div {
+	margin: 5px 0;
+}
+
+#alerta-ingreso-integrantes {
+	color: red;
+}
+
+.oculto {
+	display: none;
+}
+
+#mensajes-resultados {
+	width: 400px;
+	position: relative;
+	left: 100px;
+}
