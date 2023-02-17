@@ -1,0 +1,25 @@
+{
+  "name": "clase-11-tarea",
+  "version": "1.0.0",
+  "description": "Tarea de la clase 11 de r-Argentina-Programa (Agregar Cypress a proyecto calcular edades de una familia)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juansebayala/clase-11-tarea.git"
+  },
+  "author": "Juan Sebastián Ayala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juansebayala/clase-11-tarea/issues"
+  },
+  "homepage": "https://github.com/Juansebayala/clase-11-tarea#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  }
+}
